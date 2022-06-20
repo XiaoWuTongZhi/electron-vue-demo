@@ -13,10 +13,11 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "electron-builder": "^20.44.4",
     "electron": "^19.0.4",
-    "vue-cli-plugin-electron-builder": "^2.1.1",
-    "vue": "^3.2.13"
+    "electron-builder": "^20.44.4",
+    "tdesign-vue-next": "^0.16.1",
+    "vue": "^3.2.13",
+    "vue-cli-plugin-electron-builder": "^2.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

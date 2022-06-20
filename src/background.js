@@ -16,12 +16,12 @@ async function createWindow () {
   const mainWindow = new BrowserWindow({
     width: screen.getPrimaryDisplay().workAreaSize.width,
     height: screen.getPrimaryDisplay().workAreaSize.height,
-    transparent: true, // 隐藏系统菜单栏
+    transparent: false, // 隐藏系统菜单栏
     useContentSize: true,
-    resizable: false, // 禁止改变大小
-    // show: false,
-    // paintWhenInitiallyHidden: true,
-    frame: false, // 无边框窗口
+    resizable: true, // 禁止改变大小
+    show: false,
+    paintWhenInitiallyHidden: true,
+    frame: true, // 无边框窗口
     webPreferences: {
 
       // Use pluginOptions.nodeIntegration, leave this alone
